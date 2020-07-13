@@ -1,0 +1,8 @@
+name: MCReddit
+version: ${project.version}
+main: ein.report.mcreddit.MCReddit
+api-version: 1.16
+prefix: MCReddit
+authors: [EinReporter]
+description: Show Reddit posts in your Minecraft chat
+website: http://ein.report
