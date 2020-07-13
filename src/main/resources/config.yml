@@ -1,0 +1,28 @@
+# Plugin configuration of MCReddit
+# Version: 1.0
+# GitHub: https://github.com/EinReporter/MCReddit
+# Author: EinReporter (http://ein.report)
+
+# Permissions:
+# admin: 'reddit.admin'
+# user: 'reddit'
+
+# Commands
+# /reddit broadcasts toggle ( -> starts or stops broadcasting | permission: reddit.admin )
+# /reddit broadcasts set <10-3600> ( -> set broadcast delay in seconds | permission: reddit.admin )
+
+broadcasting:
+  # delay in seconds (has to be at least 10 seconds)
+  # The plugin looks for new posts from the list at this interval
+  delay: 10
+
+  # list of subreddits that should be broadcasted in the chat
+  subreddits:
+    - r/all # example
+
+chat:
+  useSubredditNameAsPrefix: true
+  prefixes:
+    default: "&8[&#ff5700MCReddit&8] &7"
+    reddit: "&8[&#ff5700Reddit&8] &7"
+    subreddit: "&8[&#ff5700%subredditname%&8] &7"

@@ -6,3 +6,6 @@ prefix: MCReddit
 authors: [EinReporter]
 description: Show Reddit posts in your Minecraft chat
 website: http://ein.report
+commands:
+  reddit:
+    description: reddit goes brrr brrr brr
